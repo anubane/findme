@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/default.css" />
+    <script type="text/javascript" src="js/allvars.js"></script>
+    <script type="text/javascript" src="js/buttonActions.js"></script>
+    <script type="text/javascript" src="js/handleConsole.js"></script>
+    <script type="text/javascript" src="js/ipscript.js"></script>
+    <script type="text/javascript" src="js/mapScript.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <title>Geo First</title>
+</head>
+<body onload="loadXMLDoc()">
+    <div id="pageHolder">
+        <div id="mapHolder">
+            <img src="img/InMapsPlace.png" />
+        </div>
+        <div id="myConsole">
+            <textarea id="myConsoleText" placeholder="Kindly turn off your adblocker, for this application to work. We do not serve ads. This is an educational project." readonly></textarea>
+        </div>
+        <div id="yourIp">
+            <p>Your public IP: <span id="yourIpValue">Turn off ad-blocker</span></p>
+        </div>
+        <div id="buttonHolder">
+            <span id="locateMe"><input type="button" id="locateMeBt" value="Find Me!" onclick="findMeFnc()" /></span>
+            <span  id="MapControlToggle"><input type="button" id="MapControlToggleBt" value="Toggle Map Controls"onclick="togglMapCtrlFnc()" /></span>
+        </div>
+    </div>
+</body>
+</html>
