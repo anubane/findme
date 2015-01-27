@@ -63,7 +63,7 @@ function drawAccuracyCircle(centerOn,radii){
     logger("Accuracy of your location: "+radii+" m");
     var region = new google.maps.Circle({
         center:centerOn,
-        radius:radii,
+        radius:(radii+2),
         strokeColor:"#388C8F",
         strokeOpacity:0.6,
         strokeWeight:1,

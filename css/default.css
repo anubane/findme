@@ -94,3 +94,33 @@ body{
     opacity: 0.8;
     background-color: #ec4d61;
 }
+#pageHolder #buttonHolder #credits{
+    position: absolute;
+    color: #8c590d;
+    font-variant: small-caps;
+    top: 155px;
+    left: 80px;
+    width: 200px;
+}
+#pageHolder #licenseHolder{
+    position: fixed;
+    bottom: 2px;
+    right: 30px;
+    font-size: 11px;
+    color: #67823a;
+}
+.identity{
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 100;
+    line-height: 19px;
+    color: #67823a;
+    text-decoration: none !important;
+}
+.lic{
+    font-size: 11px;
+    color: #67823a;
+    text-decoration: none !important;
+}
