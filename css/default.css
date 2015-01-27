@@ -1,0 +1,126 @@
+body{
+    background-color: #3e4357;
+}
+#pageHolder{
+    position: absolute;
+}
+#pageHolder #mapHolder{
+    position: absolute;
+    height: 98vh; /*viewport height - automatically resize a div, cousin is vw*/
+    width: 1030px;
+    top: 1px;
+    left: 1px;
+    background-color: #000000;/*#322555;*/
+    visibility: visible;
+}
+#pageHolder #myConsole{
+    position: absolute;
+    height: 380px;
+    width: 310px;
+    top: 1px;
+    left: 1035px;
+    background-color: black;
+    font-family: monospace, serif;
+    visibility: visible;
+}
+#pageHolder #myConsole #myConsoleText{
+    height: 378px;
+    width: 307px;
+    overflow: auto; /*hidden to hide scrollbar*/
+    resize: none;
+    overflow-wrap: normal;
+    background-color: black;
+    color: #44a91b;
+    border: none;
+    padding-top: 2px;
+    padding-left: 3px;
+    scrollbar-arrow-color:pink;
+    scrollbar-base-color:red;
+    scrollbar-darkshadow-color:blue;
+    scrollbar-highlightcolor:orange;
+    scrollbar-shadow-color:green
+}
+#pageHolder #yourIp{
+    position: absolute;
+    height: 39px;
+    width: 302px;
+    top: 385px;
+    left: 1035px;
+    background-color: #474a41;
+    color: #a2a89b;
+    font-family: Helvetica;
+    padding-left: 10px;
+    padding-top: 2px;
+    line-height: 1px;
+}
+#pageHolder #yourIp #yourIpValue{
+    color: #ec4301;
+}
+#pageHolder #buttonHolder{
+    position: absolute;
+    top: 435px;
+    left: 1035px;
+    padding-left: 57px;
+    padding-top: 40px;
+}
+#pageHolder #buttonHolder #locateMeBt{
+    position: absolute;
+    width:216px;
+    height:30px;
+    background-color: #47a0da;
+    border:none;
+    border-radius: 2px;
+    cursor:pointer;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:15px;
+}
+#pageHolder #buttonHolder #locateMeBt:hover{
+    opacity:0.8;
+    background-color: #41be1f;
+}
+#pageHolder #buttonHolder #MapControlToggleBt{
+    position: absolute;
+    top: 90px;
+    width:216px;
+    height:30px;
+    background-color: #47a0da;
+    border:none;
+    border-radius: 2px;
+    cursor:pointer;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:15px;
+}
+#pageHolder #buttonHolder #MapControlToggleBt:hover{
+    opacity: 0.8;
+    background-color: #ec4d61;
+}
+#pageHolder #buttonHolder #credits{
+    position: absolute;
+    color: #8c590d;
+    font-variant: small-caps;
+    top: 155px;
+    left: 80px;
+    width: 200px;
+}
+#pageHolder #licenseHolder{
+    position: fixed;
+    bottom: 2px;
+    right: 30px;
+    font-size: 11px;
+    color: #67823a;
+}
+.identity{
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 100;
+    line-height: 19px;
+    color: #67823a;
+    text-decoration: none !important;
+}
+.lic{
+    font-size: 11px;
+    color: #67823a;
+    text-decoration: none !important;
+}
