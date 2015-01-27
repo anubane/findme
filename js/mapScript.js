@@ -23,7 +23,7 @@ function plotLocation(position) {
         var marker = new google.maps.Marker({
             position: point,
             icon: 'img/LocationMarker.png',
-            //animation: google.maps.Animation.BOUNCE
+            animation: google.maps.Animation.BOUNCE
         });
         marker.setMap(map);
         drawAccuracyCircle(point,position.coords.accuracy);
